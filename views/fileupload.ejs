@@ -1,0 +1,22 @@
+<%- include('header') %>
+
+<body>
+
+    <div class="card top-div" style="margin-top: 140px">
+        <div class="card-body">
+            
+            <form id="upload_form" enctype="multipart/form-data" method="post" action="/fupload">
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" name = "myfile"  id="customFile">
+                    <label class="custom-file-label" for="customFile">Choose file</label>
+                </div><br/><br/>
+                <div class="form-group">
+                    <input type="submit" name="submit" class="btn btn-success btn-md" value="upload" />
+                </div>
+            </form>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+        </div>
+    </div>
+    
+    <%- include('footer') %>
+    
